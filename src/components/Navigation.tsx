@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ShoppingBag, Info, Home } from 'lucide-react';
-import logo from '../../public/assets/BG.webp';
+import logo from '../../public/BG.webp';
 
 export const Navigation: React.FC = () => {
   const location = useLocation();

@@ -8,8 +8,8 @@ export const products: Product[] = [
     description: 'Guitare classique avec un style moderne. Fabriqué en bois de qualité avec une finition durable.',
     category: 'music',
     images: [
-      '../../../public/assets/GB.jpeg',
-      '../../../public/assets/GN.jpeg',
+      'GB.jpeg',
+      'GN.jpeg',
     ],
     options: {
       color: ['Black', 'Wood'],
@@ -22,8 +22,8 @@ export const products: Product[] = [
     description: 'Gourde durable et pratique, conçue pour contenir de l\'eau. Parfaite pour les activités en extérieur, elle garde votre boisson fraîche pendant des heures grâce à son isolation thermique.',
     category: 'fashion',
     images: [
-      '../../../public/assets/SB.jpeg',
-      '../../../public/assets/SN.jpeg',
+      'SB.jpeg',
+      'SN.jpeg',
     ],
     options: {
       // size: ['S', 'M', 'L', 'XL'],
@@ -37,10 +37,10 @@ export const products: Product[] = [
     description: 'Capuche moderne et confortable, Conçue pour un ajustement parfait et un confort optimal.',
     category: 'fashion',
     images: [
-      '../../../public/assets/PB.jpeg',
-      '../../../public/assets/PM.jpeg',
-      '../../../public/assets/PJ.jpeg',
-      '../../../public/assets/PG.jpeg',
+      'PB.jpeg',
+      'PM.jpeg',
+      'PJ.jpeg',
+      'PG.jpeg',
     ],
     options: {
       size: ['XS', 'S', 'M', 'L', 'XL'],
