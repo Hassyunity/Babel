@@ -48,7 +48,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                       [option]: e.target.value,
                     })
                   }
-                  className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                  className="block w-full rounded-md border-gray-300 shadow-sm focus:border-[#70A0AF] focus:ring-[#70A0AF] sm:text-sm"
                 >
                   <option value="">Select {option}</option>
                   {values.map((value) => (
@@ -71,13 +71,13 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             min="1"
             value={quantity}
             onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value)))}
-            className="w-20 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+            className="w-20 rounded-md border-gray-300 shadow-sm focus:border-[#70A0AF] focus:ring-[#70A0AF] sm:text-sm"
           />
         </div>
 
         <button
           onClick={handleAddToCart}
-          className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="w-full bg-[#70A0AF] text-white py-2 px-4 rounded-md hover:bg-[#5d8593]"
         >
           Add to Cart
         </button>

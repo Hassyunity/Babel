@@ -48,19 +48,19 @@ export const About: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-900">Contact Information</h3>
                   <div className="space-y-4">
                     <p className="flex items-center text-gray-600">
-                      <MapPin className="h-5 w-5 mr-2 text-indigo-600" />
+                      <MapPin className="h-5 w-5 mr-2 text-[#70A0AF]" />
                       Madagascar, Antananarivo
                     </p>
                     <p className="flex items-center text-gray-600">
-                      <Phone className="h-5 w-5 mr-2 text-indigo-600" />
+                      <Phone className="h-5 w-5 mr-2 text-[#70A0AF]" />
                       +261 34 16 020 73
                     </p>
                     <p className="flex items-center text-gray-600">
-                      <Mail className="h-5 w-5 mr-2 text-indigo-600" />
+                      <Mail className="h-5 w-5 mr-2 text-[#70A0AF]" />
                       contact@babelgoods.com
                     </p>
                     <p className="flex items-center text-gray-600">
-                      <Clock className="h-5 w-5 mr-2 text-indigo-600" />
+                      <Clock className="h-5 w-5 mr-2 text-[#70A0AF]" />
                       7 jours sur 7, 24 heures sur 24
                     </p>
                   </div>

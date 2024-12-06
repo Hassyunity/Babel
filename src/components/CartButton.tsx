@@ -10,11 +10,11 @@ export const CartButton: React.FC = () => {
   return (
     <Link
       to="/cart"
-      className="fixed bottom-4 right-4 bg-indigo-600 text-white p-3 rounded-full shadow-lg flex items-center space-x-2"
+      className="fixed bottom-4 right-4 bg-[#70A0AF] text-white p-3 rounded-full shadow-lg flex items-center space-x-2"
     >
       <ShoppingCart size={24} />
       {itemCount > 0 && (
-        <span className="bg-white text-indigo-600 rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">
+        <span className="bg-white text-[#70A0AF] rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">
           {itemCount}
         </span>
       )}

@@ -24,7 +24,7 @@ export const Home: React.FC = () => {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-md ${
                   selectedCategory === category
-                    ? 'bg-indigo-600 text-white'
+                    ? 'bg-custom-blue text-white'  // Utilisation de la couleur personnalisée 'bg-custom-blue'
                     : 'bg-white text-gray-800 hover:bg-gray-50'
                 }`}
               >

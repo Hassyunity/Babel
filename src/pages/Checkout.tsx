@@ -122,7 +122,7 @@ export const Checkout: React.FC = () => {
                 required
                 value={formData.firstName}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#007BFF] focus:ring-[#007BFF] sm:text-sm"
               />
             </div>
             <div>
@@ -139,7 +139,7 @@ export const Checkout: React.FC = () => {
                 required
                 value={formData.lastName}
                 onChange={handleChange}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#007BFF] focus:ring-[#007BFF] sm:text-sm"
               />
             </div>
           </div>
@@ -158,7 +158,7 @@ export const Checkout: React.FC = () => {
               required
               value={formData.phone}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#007BFF] focus:ring-[#007BFF] sm:text-sm"
             />
           </div>
 
@@ -176,7 +176,7 @@ export const Checkout: React.FC = () => {
               value={formData.address}
               onChange={handleChange}
               rows={3}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#007BFF] focus:ring-[#007BFF] sm:text-sm"
             />
           </div>
 
@@ -195,13 +195,13 @@ export const Checkout: React.FC = () => {
               value={formData.deliveryDate}
               onChange={handleChange}
               min={new Date().toISOString().split('T')[0]}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-[#007BFF] focus:ring-[#007BFF] sm:text-sm"
             />
           </div>
 
           <button
             type="submit"
-            className="w-full bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            className="w-full bg-[#007BFF] py-3 px-8 text-base font-medium text-white hover:bg-[#0056b3] focus:outline-none focus:ring-2 focus:ring-[#007BFF] focus:ring-offset-2"
           >
             Place Order
           </button>

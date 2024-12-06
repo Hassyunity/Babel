@@ -33,7 +33,7 @@ export const Cart: React.FC = () => {
             <p className="text-gray-500">Your cart is empty</p>
             <button
               onClick={() => navigate('/')}
-              className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
+              className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#70A0AF] hover:bg-[#70A0AF]"
             >
               Continue Shopping
             </button>
@@ -73,7 +73,7 @@ export const Cart: React.FC = () => {
                       onChange={(e) =>
                         updateQuantity(item.product.id, parseInt(e.target.value))
                       }
-                      className="w-20 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                      className="w-20 rounded-md border-gray-300 shadow-sm focus:border-[#70A0AF] focus:ring-[#70A0AF] sm:text-sm"
                     />
                     <button
                       onClick={() => removeItem(item.product.id)}
@@ -97,7 +97,7 @@ export const Cart: React.FC = () => {
             <div className="mt-8">
               <button
                 onClick={() => navigate('/checkout')}
-                className="w-full bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                className="w-full bg-[#70A0AF] py-3 px-8 text-base font-medium text-white hover:bg-[#70A0AF] focus:outline-none focus:ring-2 focus:ring-[#70A0AF] focus:ring-offset-2"
               >
                 Proceed to Checkout
               </button>

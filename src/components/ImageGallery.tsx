@@ -25,7 +25,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images }) => {
             key={index}
             onClick={() => setSelectedImage(index)}
             className={`aspect-square w-full overflow-hidden rounded-lg ${
-              selectedImage === index ? 'ring-2 ring-indigo-500' : ''
+              selectedImage === index ? 'ring-2 ring-[#70A0AF]' : ''
             }`}
           >
             <img
@@ -46,7 +46,7 @@ export const ImageGallery: React.FC<ImageGalleryProps> = ({ images }) => {
             className="absolute top-4 right-4 text-white"
             onClick={() => setIsZoomed(false)}
           >
-            <X size={24} />
+            <X size={24} color="#70A0AF" />
           </button>
           <img
             src={images[selectedImage]}
