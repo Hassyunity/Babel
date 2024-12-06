@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ShoppingBag, Info, Home } from 'lucide-react';
+import logo from '../../public/assets/BG.webp';
 
 export const Navigation: React.FC = () => {
   const location = useLocation();
@@ -12,8 +13,8 @@ export const Navigation: React.FC = () => {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 justify-between items-center">
           <div className="flex-shrink-0 flex items-center">
-            <ShoppingBag className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">Notre Boutique</span>
+            <img src={logo} alt="Babel Goods Logo" className="h-8 w-8 rounded-full" />
+            <span className="ml-2 text-xl font-bold text-gray-900">Babel Goods</span>
           </div>
           <div className="flex space-x-8">
             <Link
