@@ -17,9 +17,9 @@ export const products: Product[] = [
   },
   {
     id: '2',
-    name: 'Leather Jacket',
+    name: 'Stanley',
     price: 150000.99,
-    description: 'Classic leather jacket with modern style. Made from genuine leather with a comfortable fit and durable construction.',
+    description: 'Gourde durable et pratique, conçue pour contenir de l\'eau. Parfaite pour les activités en extérieur, elle garde votre boisson fraîche pendant des heures grâce à son isolation thermique.',
     category: 'fashion',
     images: [
       '../../../public/assets/SB.jpeg',
@@ -32,9 +32,9 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'Denim Jacket',
+    name: 'Manfinity',
     price: 89.99,
-    description: 'Timeless denim jacket that never goes out of style. Features premium denim and classic detailing.',
+    description: 'Capuche moderne et confortable, Conçue pour un ajustement parfait et un confort optimal.',
     category: 'fashion',
     images: [
       '../../../public/assets/PB.jpeg',
