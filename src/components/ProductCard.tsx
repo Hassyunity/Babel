@@ -64,7 +64,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
         <div className="flex items-center space-x-4 mb-4">
           <label className="block text-sm font-medium text-gray-700">
-            Quantity:
+            Quantité:
           </label>
           <input
             type="number"
@@ -79,7 +79,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           onClick={handleAddToCart}
           className="w-full bg-[#70A0AF] text-white py-2 px-4 rounded-md hover:bg-[#5d8593]"
         >
-          Add to Cart
+          Ajouter au panier
         </button>
       </div>
     </div>

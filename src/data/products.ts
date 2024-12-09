@@ -12,7 +12,7 @@ export const products: Product[] = [
       'GN.jpeg',
     ],
     options: {
-      color: ['Black', 'Wood'],
+      Couleur: ['Noire', 'Couleur naturelle'],
     },
   },
   {
@@ -27,7 +27,7 @@ export const products: Product[] = [
     ],
     options: {
       // size: ['S', 'M', 'L', 'XL'],
-      color: ['Black', 'white'],
+      Couleur: ['Noire', 'Blanche'],
     },
   },
   {
@@ -58,7 +58,7 @@ export const products: Product[] = [
       'https://images.unsplash.com/photo-1461360228754-6e81c478b882',
     ],
     options: {
-      color: ['Walnut', 'Black', 'Natural'],
+      Couleur: ['Walnut', 'Noire', 'Natural'],
     },
   },
 ];

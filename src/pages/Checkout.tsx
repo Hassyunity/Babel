@@ -77,7 +77,7 @@ export const Checkout: React.FC = () => {
                     ${item.product.price.toFixed(2)}
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">
-                    Quantity: {item.quantity}
+                    Quantité: {item.quantity}
                   </p>
                   {item.selectedOptions && (
                     <p className="mt-1 text-sm text-gray-500">
@@ -113,7 +113,7 @@ export const Checkout: React.FC = () => {
                 htmlFor="firstName"
                 className="block text-sm font-medium text-gray-700"
               >
-                First name
+                Nom
               </label>
               <input
                 type="text"
@@ -130,7 +130,7 @@ export const Checkout: React.FC = () => {
                 htmlFor="lastName"
                 className="block text-sm font-medium text-gray-700"
               >
-                Last name
+                Prenom
               </label>
               <input
                 type="text"
@@ -149,7 +149,7 @@ export const Checkout: React.FC = () => {
               htmlFor="phone"
               className="block text-sm font-medium text-gray-700"
             >
-              Phone number
+              Numero de téléphone
             </label>
             <input
               type="tel"
@@ -167,7 +167,7 @@ export const Checkout: React.FC = () => {
               htmlFor="address"
               className="block text-sm font-medium text-gray-700"
             >
-              Delivery Address
+              Address de livraison
             </label>
             <textarea
               name="address"
@@ -185,7 +185,7 @@ export const Checkout: React.FC = () => {
               htmlFor="deliveryDate"
               className="block text-sm font-medium text-gray-700"
             >
-              Preferred Delivery Date
+              Date de livraison souhaitée
             </label>
             <input
               type="date"
@@ -203,7 +203,7 @@ export const Checkout: React.FC = () => {
             type="submit"
             className="w-full bg-[#007BFF] py-3 px-8 text-base font-medium text-white hover:bg-[#0056b3] focus:outline-none focus:ring-2 focus:ring-[#007BFF] focus:ring-offset-2"
           >
-            Place Order
+            Envoyer la commande
           </button>
         </form>
       </div>
