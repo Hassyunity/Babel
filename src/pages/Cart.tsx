@@ -22,11 +22,11 @@ export const Cart: React.FC = () => {
             className="flex items-center text-gray-600 hover:text-gray-900"
           >
             <ArrowLeft className="h-5 w-5 mr-2" />
-            Continue Shopping
+            Continue a selectioner
           </button>
         </div>
         <h1 className="text-3xl font-bold tracking-tight text-gray-900 mb-8">
-          Shopping Cart
+          Votre panier
         </h1>
         {items.length === 0 ? (
           <div className="text-center py-12">
@@ -35,7 +35,7 @@ export const Cart: React.FC = () => {
               onClick={() => navigate('/')}
               className="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#70A0AF] hover:bg-[#70A0AF]"
             >
-              Continue Shopping
+              Continue a selectioner
             </button>
           </div>
         ) : (
@@ -99,7 +99,7 @@ export const Cart: React.FC = () => {
                 onClick={() => navigate('/checkout')}
                 className="w-full bg-[#70A0AF] py-3 px-8 text-base font-medium text-white hover:bg-[#70A0AF] focus:outline-none focus:ring-2 focus:ring-[#70A0AF] focus:ring-offset-2"
               >
-                Proceed to Checkout
+                Procedé a la commande
               </button>
             </div>
           </div>

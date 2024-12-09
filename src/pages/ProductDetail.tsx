@@ -71,7 +71,7 @@ export const ProductDetail: React.FC = () => {
             )}
             <div className="mt-8">
               <label className="block text-sm font-medium text-gray-700">
-                Quantity
+                Quantité:
               </label>
               <input
                 type="number"
@@ -85,7 +85,7 @@ export const ProductDetail: React.FC = () => {
               onClick={handleAddToCart}
               className="mt-8 w-full bg-[#70A0AF] py-3 px-8 text-base font-medium text-white hover:bg-[#70A0AF] focus:outline-none focus:ring-2 focus:ring-[#70A0AF] focus:ring-offset-2"
             >
-              Add to Cart
+              Ajouter au panier
             </button>
           </div>
         </div>
